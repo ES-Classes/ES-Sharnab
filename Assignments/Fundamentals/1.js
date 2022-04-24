@@ -20,7 +20,7 @@ let h2 = 1.92;
 let bmi1 = w1 / (h1 * h1);
 let bmi2 = w2 / (h2 * h2);
 
-if (bmi1 << bmi2)
+if (bmi1 < bmi2)
 console.log('Ram has higher BMI');
 else
 console.log('Prabin has higher BMI');
